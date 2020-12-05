@@ -6,7 +6,9 @@
 
  Example of oasis-node parameter to expose the metrics
  
+ ```
  ExecStart=/home/oasis/oasis-node \
         --config /home/oasis/serverdir/etc/config.yml \
- *      --metrics.mode pull \ *
- *      --metrics.address 0.0.0.0:9101 *
+        --metrics.mode pull \ 
+        --metrics.address 0.0.0.0:9101 
+```
