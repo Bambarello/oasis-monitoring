@@ -15,7 +15,7 @@
  
 4) Update the prometheus.yml to grab node_exporter and oasis_node metrics.
 
-**Important**: ensure you clearly indicate "Job" as "oasis" for proper grafana dashboard functionality.
+  **Important**: ensure you clearly indicate "Job" as "oasis" for proper grafana dashboard functionality.
 
 ```
       - targets: ['[NODE IP]:9100']
@@ -27,3 +27,5 @@
           host: "Oasis Node"
           job: "oasis"
 ```
+
+5) Import dashboard.json to your Grafana, re-check alerts. 
