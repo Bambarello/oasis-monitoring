@@ -1,6 +1,6 @@
 # Oasis-monitoring
 
-1) Use standard Grometheus mettics collector and Grafana.
+1) Use standard Prometheus mettics collector and Grafana.
 2) Install *node_exporter* to the oasis node. Default port for metrics is 9100.
 3) Expose metrics from oasis-node.
 
