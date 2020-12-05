@@ -13,7 +13,8 @@
         --metrics.address 0.0.0.0:9101 
 ```
  
-4) Update the prometheus.yml to grab node_exporter and oasis_node metrics. 
+4) Update the prometheus.yml to grab node_exporter and oasis_node metrics.
+
 **Important**: ensure you clearly indicate "Job" as "oasis" for proper grafana dashboard functionality.
 
 ```
